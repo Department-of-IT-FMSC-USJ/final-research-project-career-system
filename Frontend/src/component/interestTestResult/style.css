@@ -1,0 +1,19 @@
+.interestTestResultContainer {
+  background-color: #edf5fd;
+  min-height: 100vh;
+}
+.interestTestResultContent {
+  display: flex;
+  gap: 40px;
+  padding-top: 4%;
+  margin-left: 10%;
+  margin-left: 3%;
+  padding-bottom: 5%;
+}
+.interestTestResultContentLeft {
+  flex: 2;
+}
+.interestTestResultContentRight {
+  flex: 1;
+  padding-top: 20%;
+}

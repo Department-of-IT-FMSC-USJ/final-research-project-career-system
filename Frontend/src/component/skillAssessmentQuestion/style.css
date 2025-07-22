@@ -1,0 +1,17 @@
+.skillAssessmentQuestionContainer {
+  background-color: #edf5fd;
+  min-height: 100vh;
+}
+.skillAssessmentQuestionContent {
+  display: flex;
+  padding-top: 4%;
+  gap: 40px;
+}
+.skillAssessmentQuestionContentLeft {
+  flex: 2;
+  margin-left: 10%;
+}
+.skillAssessmentQuestionContentRight {
+  flex: 1;
+  padding-top: 25%;
+}

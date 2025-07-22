@@ -1,0 +1,107 @@
+.personalityTraitContainer {
+  background-color: #edf5fd;
+  min-height: 100vh;
+}
+.personalityTraitContent {
+  display: flex;
+  gap: 40px;
+  padding-top: 5%;
+}
+.personalityTraitContentLeft {
+  flex: 2;
+  margin-left: 10%;
+}
+.personalityTraitContentRight {
+  flex: 1;
+  padding-top: 5%;
+}
+.leftContentBody {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 30px 30px 30px;
+}
+.brainImage {
+  text-align: center;
+}
+.brainImage img {
+  width: 75.0386962890625px;
+  height: 78.13030242919922px;
+  opacity: 1;
+}
+.leftContentTitle {
+  text-align: center;
+  padding-top: 3%;
+}
+.leftContentTitle span {
+  font-family: "Poppins-Medium";
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1a1a1a;
+}
+.timeDuration {
+  text-align: center;
+  padding-top: 1%;
+}
+.timeDuration span {
+  font-family: "Inter-Bold";
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #070707;
+}
+.leftContentDescription {
+  text-align: center;
+  padding-top: 3%;
+}
+.leftContentDescription span {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #070707;
+}
+.subDescription {
+  text-align: center;
+  padding-top: 2%;
+}
+.subDescription span {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #070707;
+}
+.buttonText {
+  text-align: center;
+  padding-top: 3%;
+}
+.buttonText span {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #070707;
+}
+.testStartButton {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+.testStartButton span {
+  font-family: "Poppins-Semibold";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0f65ff;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}

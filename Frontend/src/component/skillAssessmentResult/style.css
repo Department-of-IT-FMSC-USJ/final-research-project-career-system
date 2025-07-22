@@ -1,0 +1,46 @@
+.skillAssessmentResultContainer {
+  background-color: #edf5fd;
+  min-height: 100vh;
+}
+.skillAssessmentResultContent {
+  display: flex;
+  gap: 40px;
+  padding-top: 4%;
+}
+.skillAssessmentResultContentLeft {
+  flex: 2;
+  margin-left: 10%;
+  padding-bottom: 4%;
+}
+.skillAssessmentResultContentRight {
+  flex: 1;
+  padding-top: 13%;
+}
+.scoreContainer {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4%;
+}
+.scoreContent {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.scoreContent span {
+  font-family: "Poppins-Semibold";
+  font-size: 18px;
+  line-height: 165%;
+  letter-spacing: 0%;
+  color: #6c6c6c;
+  border: 2px solid #a4a4a4;
+  background-color: transparent;
+  padding: 10px 10px 10px 10px;
+  border-radius: 6.41px;
+}
+.activeScore {
+  border: 2px solid #3e9fff !important;
+  background-color: #d7ebff !important;
+}

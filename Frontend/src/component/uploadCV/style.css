@@ -1,0 +1,182 @@
+.uploadCVContainer {
+  background-color: #edf5fd;
+  min-height: 100vh;
+  display: flex;
+  gap: 50px;
+  padding-top: 5%;
+}
+.uploadCvLeft {
+  flex: 2;
+}
+.uploadCvRight {
+  flex: 1;
+  margin-top: 5%;
+}
+.uploadCvHeader {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1a1a1a;
+}
+.uploadCvSestion {
+  background-color: #ffffff;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding: 50px 100px 50px 100px;
+  border-radius: 10px;
+}
+.uploadInput {
+  border: 1px solid #0f65ff;
+  border-style: dashed;
+  margin-top: 8%;
+  border-radius: 10px;
+}
+.uploadInputText {
+  text-align: center;
+  padding-top: 5%;
+}
+.uploadInputText span {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.uploadText {
+  font-family: "Poppins-Semibold" !important;
+  text-decoration: underline !important;
+  text-decoration-style: solid !important;
+  text-decoration-thickness: 0% !important;
+  text-decoration-skip-ink: auto !important;
+  cursor: pointer !important;
+}
+.formatType {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.formatType span {
+  font-family: "Poppins-Light";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.fileName {
+  text-align: center;
+  padding-top: 5%;
+}
+.fileName span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.continueButton {
+  text-align: center;
+  margin-top: 8%;
+}
+.continueButton span {
+  font-family: "Poppins-Semibold";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0f65ff;
+  padding: 10px 60px 10px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dontHaveCv {
+  text-align: center;
+  margin-top: 4%;
+}
+.dontHaveCv span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.dontHaveCvText {
+  font-family: "Poppins-Medium" !important;
+  text-decoration: underline !important;
+  text-decoration-style: solid !important;
+  text-decoration-thickness: 0% !important;
+  text-decoration-skip-ink: auto !important;
+  cursor: pointer !important;
+}
+.stepper-container {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: "Poppins-Semibold";
+  padding: 20px 20px 20px 20px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.step-number {
+  width: 34px;
+  height: 34px;
+  background-color: #d0e6ff;
+  color: #9b9ba0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.step-label {
+  margin-left: 12px;
+  color: #9b9ba0;
+  font-size: 14px;
+}
+
+.step.active .step-number {
+  background-color: #0f65ff;
+  color: #fff;
+}
+
+.step.active .step-label {
+  color: #000;
+  font-weight: 600;
+}
+
+.step::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 14px;
+  width: 5.5px;
+  height: 100%;
+  background-color: #d0e6ff;
+  z-index: 0;
+}
+
+.step.active::after {
+  background-color: #0f65ff;
+}
+
+.step:last-child::after {
+  display: none;
+}

@@ -1,0 +1,377 @@
+.mainResultContiner {
+  background-color: #edf5fd;
+  min-height: 100vh;
+}
+.mainResultContent {
+  display: flex;
+  gap: 5px;
+  padding-top: 4%;
+}
+.mainResultContentLeft,
+.mainResultContentRight {
+  flex: 1;
+  padding-left: 10%;
+}
+.mainResultContentRight {
+  padding-right: 3%;
+}
+.topSection {
+  display: flex;
+  gap: 5px;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+.resultLeftPane {
+  flex: 1;
+}
+.resultRightPane {
+  flex: 2;
+  margin-left: -290px;
+}
+.resultMiddlePane {
+  flex: 3;
+  margin-left: -90px;
+}
+.resultMiddlePaneTitle span {
+  font-family: "Poppins-Medium";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #070707;
+}
+.resultMiddlePaneSubTitle {
+  padding-top: 2%;
+}
+.resultMiddlePaneSubTitle span {
+  font-family: "Poppins-Medium";
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #070707;
+}
+.resultMiddlePaneScoreSection {
+  display: flex;
+  gap: 20px;
+  padding-top: 4%;
+}
+.resultMiddlePaneScoreSection span {
+  background-color: #293545;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-family: "Poppins-Medium";
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.progressBar-result {
+  width: 120px;
+  height: 120px;
+}
+.downloadLink {
+  display: flex;
+  justify-content: center;
+}
+.downloadLink span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  text-decoration-skip-ink: auto;
+  cursor: pointer;
+}
+.downloadImage {
+  text-decoration: none !important;
+}
+.middleProgressBar {
+  width: 50px;
+  height: 50px;
+}
+.firstBoxTitle span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.firstBoxDescription {
+  border: 1px solid #3e9fff;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  margin-top: 3%;
+}
+.firstBoxDescription span {
+  font-family: "Poppins";
+  font-size: 15.51px;
+  line-height: 21.54px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+.topSkill {
+  padding-top: 5%;
+}
+.topSkillTitle span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.topSkillList {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+.topSkillProgressBar {
+  flex: 1;
+}
+.topSkillDescription {
+  flex: 4;
+}
+.ushan {
+  width: 60px;
+  height: 60px;
+}
+.topSkillContent {
+  padding-top: 3%;
+}
+.topSkillDescription span {
+  font-family: "Poppins";
+  font-size: 17.23px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #070707;
+}
+.DecriptionHeader {
+  font-family: "Poppins-Semibold" !important;
+}
+.dataTableOneTitle {
+  padding-top: 5%;
+}
+.dataTableOneTitle span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.mainResultContentRightBox {
+  border: 1px solid #3e9fff;
+  background-color: #ffffff;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+}
+.mainResultContentRightBoxTitle span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.mainResultContentRightBoxDescription {
+  padding-top: 3%;
+}
+.mainResultContentRightBoxDescription span {
+  font-family: "Poppins";
+  font-size: 15.51px;
+  line-height: 21.54px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+.reponsibilityTitle {
+  padding-top: 6%;
+}
+.reponsibilityTitle span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.reponsibilitySubTile {
+  padding-top: 2%;
+}
+.reponsibilitySubTile span {
+  font-family: "Poppins";
+  font-size: 17.23px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #070707;
+}
+.reponsibilityList {
+  padding-top: 4%;
+}
+.reponsibilityList ul {
+  font-family: "Poppins-Medium";
+  font-size: 17.23px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #070707;
+}
+.reponsibilityList li {
+  margin-bottom: 20px;
+}
+.reponsibilityList li::marker {
+  font-size: 1.6em;
+}
+.startText {
+  padding-top: 5%;
+}
+.startText span {
+  font-family: "Poppins-Semibold";
+  font-size: 20.68px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.startTextSub {
+  padding-top: 2%;
+}
+.startTextSub span {
+  font-family: "Poppins";
+  font-size: 15.51px;
+  line-height: 21.54px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.steps-container-start {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 4%;
+}
+
+.step-item-start {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.step-number-container-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step-number-start {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0f65ff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(52, 152, 219, 0.3);
+}
+
+.step-line-start {
+  width: 3px;
+  height: 60px;
+  background-color: #0f65ff;
+  margin-top: 0.5rem;
+}
+
+.step-content-start {
+  flex: 1;
+  padding-top: 0.2rem;
+}
+
+.step-content-start h3 {
+  font-family: "Poppins-Semibold";
+  font-size: 17.23px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #070707;
+  margin: 0 0 0.5rem 0;
+}
+
+.step-content-start p {
+  font-family: "Poppins";
+  font-size: 15.51px;
+  line-height: 21.54px;
+  letter-spacing: 0%;
+  margin: 0;
+  color: #000000;
+}
+.cvRefinementText {
+  padding-top: 6%;
+  padding-bottom: 4%;
+}
+.cvRefinementText span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.needMore {
+  padding-top: 6%;
+}
+.needMore span {
+  font-family: "Poppins-Semibold";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #293545;
+}
+.needMoreSubText {
+  padding-top: 3%;
+}
+.needMoreSubText span {
+  font-family: "Poppins";
+  font-size: 15.51px;
+  line-height: 21.54px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+.contactDetails {
+  padding-top: 2%;
+}
+.contactDetails span {
+  font-family: "Poppins-Semibold";
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+.telNumber {
+  font-family: "Poppins" !important;
+}
+
+.mainResultContent {
+  position: relative;
+}
+
+.mainResultContent::before {
+  content: "";
+  position: absolute;
+  left: 53%;
+  top: 0;
+  bottom: 30px;
+  width: 1px;
+  background-color: #8ac5ff;
+  transform: translateX(-50%);
+  z-index: 1;
+}

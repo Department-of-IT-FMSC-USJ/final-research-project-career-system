@@ -1,0 +1,42 @@
+.skillAssestmentContent {
+  background-color: #edf5fd;
+  min-height: 100vh;
+}
+.skillAssestmentContent {
+  display: flex;
+  gap: 40px;
+  padding-top: 3%;
+}
+.skillAssestmentContentLeft {
+  flex: 2;
+  margin-left: 10%;
+}
+.skillAssestmentContentRight {
+  flex: 1;
+  padding-top: 6%;
+}
+.skillBtnSesion {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.useSkillButton {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+.useSkillButton span {
+  font-family: "Poppins-Semibold";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0f65ff;
+  border: 1px solid #0f65ff;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}

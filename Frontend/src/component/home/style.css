@@ -1,0 +1,62 @@
+.homeContainer {
+  display: flex;
+  background-color: #edf5fd;
+  padding-bottom: 2%;
+  gap: -10px;
+  padding-top: 3%;
+}
+.homeLeft,
+.homeRight {
+  flex: 1;
+}
+.homeLeft {
+  padding-left: 6%;
+  padding-top: 5%;
+}
+.homeLeftHeader span {
+  font-family: "Poppins-Bold";
+  font-size: 75px;
+  line-height: 85px;
+  letter-spacing: 0%;
+  color: #1a1a1a;
+}
+.homrLeftSubHeader {
+  padding-top: 3%;
+}
+.homrLeftSubHeader span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #33343d;
+}
+.assestmentBtn {
+  margin-top: 5%;
+}
+.assestmentBtn span {
+  font-family: "Poppins-Semibold";
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0f65ff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.takeTimeText {
+  padding-top: 3%;
+}
+.takeTimeText span {
+  font-family: "Poppins-Medium";
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #33343d;
+}
+.homeImage {
+  margin-right: 36px;
+}

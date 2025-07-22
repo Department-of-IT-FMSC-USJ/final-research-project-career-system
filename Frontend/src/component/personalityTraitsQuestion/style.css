@@ -1,0 +1,203 @@
+.personalityTraitsQuestionContainer {
+  background-color: #edf5fd;
+  min-height: 100vh;
+}
+.personalityTraitsQuestionContenet {
+  display: flex;
+  gap: 30px;
+  padding-top: 3%;
+}
+.personalityTraitsQuestionContenetLeft {
+  flex: 2;
+  margin-left: 10%;
+  margin-right: 3%;
+}
+.personalityTraitsQuestionContenetRight {
+  flex: 1;
+  padding-top: 24%;
+}
+.personalityTraitsQuestionContenetLeftBoxOne {
+  background-color: #ffffff;
+  border: 1px solid #badcff;
+  border-radius: 9.29px;
+  padding: 10px 200px 10px 30px;
+}
+.personalityTraitsQuestionContenetLeftTitle span {
+  font-family: "Poppins-Semibold";
+  font-size: 29.72px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1a1a1a;
+}
+.tipsText {
+  padding-top: 3%;
+}
+.tipsText span {
+  font-family: "Poppins-Semibold";
+  font-size: 18.57px;
+  line-height: 165%;
+  letter-spacing: 0%;
+  color: #070707;
+}
+.tipsDescription {
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.tipsDescription span {
+  font-family: "Poppins-Medium";
+  font-size: 14.86px;
+  line-height: 165%;
+  letter-spacing: 0%;
+  color: #070707;
+}
+.questionIdentify {
+  padding-top: 3%;
+}
+.progressBarStyle {
+  height: 7.429805755615234px;
+}
+.progressBar {
+  margin-top: 2%;
+}
+.survey-container {
+  background-color: #ffffff;
+  border-radius: 8.21px;
+  margin-top: 5%;
+  padding: 20px 20px 20px 20px;
+}
+
+.question-header {
+  margin-bottom: 30px;
+}
+
+.question-text {
+  font-family: "Poppins-Semibold";
+  font-size: 26.28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #3c3c3c;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  border: 1px solid #3c3c3c;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 55px;
+}
+
+.option-item:hover {
+  border-color: #e5e7eb;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.option-item.selected {
+  border-color: #2563eb;
+  background-color: #0f65ff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.option-number {
+  font-family: "Poppins-Semibold";
+  font-size: 21.66px;
+  color: #3c3c3c;
+  background-color: #ececec;
+  padding: 8px 12px;
+  border-radius: 6.77px;
+  margin-right: 16px;
+  min-width: 40px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.option-item.selected .option-number {
+  background-color: #ffffff;
+  color: #0f65ff;
+}
+
+.option-label {
+  font-family: "Poppins-Semibold";
+  font-size: 21.66px;
+  color: #3c3c3c;
+  font-weight: 500;
+  line-height: 165%;
+  letter-spacing: 0%;
+  flex-grow: 1;
+}
+
+.option-item.selected .option-label {
+  color: #ffffff;
+}
+
+.radio-button-wrapper {
+  margin-left: auto;
+}
+
+.p-radiobutton .p-radiobutton-box {
+  border: 2px solid #d1d5db;
+  width: 20px;
+  height: 20px;
+}
+
+.p-radiobutton .p-radiobutton-box.p-highlight {
+  border-color: #2563eb;
+  background-color: #2563eb;
+}
+
+.p-radiobutton .p-radiobutton-box .p-radiobutton-icon {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+}
+.nextQuestionButton {
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+.nextQuestionButton span {
+  font-family: "Poppins-Semibold";
+  font-size: 18.57px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  background-color: #0f65ff;
+  border-radius: 9.29px;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .survey-container {
+    margin: 10px;
+    padding: 16px;
+  }
+
+  .option-item {
+    padding: 12px 16px;
+  }
+
+  .option-number {
+    padding: 6px 10px;
+    margin-right: 12px;
+    min-width: 35px;
+  }
+
+  .option-label {
+    font-size: 14px;
+  }
+}

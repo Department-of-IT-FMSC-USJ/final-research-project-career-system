@@ -1,0 +1,158 @@
+.itCareerContainer {
+  margin-top: 15%;
+  background-color: #EDF5FD;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.itCareerTitle {
+  text-align: center;
+}
+.itCareerTitle span {
+  font-family: "Inter-Bold";
+  font-size: 80px;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1a1a1a;
+}
+.itCareerSubTitle {
+  text-align: center;
+}
+.itCareerSubTitle span {
+  font-family: "Inter-Bold";
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1a1a1a;
+}
+.itCareerSubText {
+  text-align: center;
+  margin-top: 1.5%;
+}
+.itCareerSubText span {
+  font-family: "Inter";
+  font-weight: 300;
+  font-style: Light;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+}
+.itCareerCardContainer {
+  position: relative;
+}
+.scrollLeftBtn,
+.scrollRightBtn {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.scrollLeftBtn {
+  left: 20px;
+}
+
+.scrollRightBtn {
+  right: 20px;
+}
+
+.scrollLeftBtn img,
+.scrollRightBtn img {
+  width: 61px;
+  height: 61px;
+  display: block;
+}
+.itCareerCardSection {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.cardOne {
+  background-color: #0055df;
+  border-radius: 13.14px;
+  padding: 120px 20px 80px 20px;
+}
+.cardTitle span {
+  font-family: "Poppins-Semibold";
+  font-size: 30.67px;
+  line-height: 35.05px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff4f4;
+}
+.cardDescription {
+  padding-top: 6%;
+}
+.cardDescription span {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: Light;
+  font-size: 14.9px;
+  line-height: 19.28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.exloreAllBtn {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.exloreAllBtn span {
+  font-family: "Poppins-Semibold";
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #33343d;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+  cursor: pointer;
+}
+
+.itCareerCardSection.showAll {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.scrollLeftBtn.disabled,
+.scrollRightBtn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.scrollLeftBtn:hover:not(.disabled),
+.scrollRightBtn:hover:not(.disabled) {
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .itCareerCardSection.showAll {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .itCareerCardSection.showAll {
+    grid-template-columns: 1fr;
+  }
+}
+
+

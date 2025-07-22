@@ -1,0 +1,107 @@
+#list {
+  gap: 50px;
+}
+#logoDiv {
+  margin-left: 15%;
+  margin-top: 5%;
+  display: flex;
+}
+.logoText {
+  font-family: "Poppins-Semibold";
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #3b1b02;
+}
+.logoTextCareer {
+  color: #0f65ff !important;
+}
+#navName {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: left;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #767676;
+  cursor: pointer;
+}
+#homeText {
+  font-family: "Poppins-Semibold";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #3b1b02;
+  cursor: pointer;
+}
+.navBarContainer {
+  background-color: #edf5fd;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#backToText {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #059dff;
+}
+.pi {
+  color: #0a87e4;
+  font-size: 20px;
+}
+
+#toggleBtn {
+  border: #0a87e4 2px solid;
+  margin-right: 8%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 678px) {
+  #list {
+    gap: 0px;
+  }
+  #logoDiv {
+    margin-left: 2%;
+  }
+  .logoImage {
+    width: 70%;
+    margin-left: 6%;
+  }
+  #homeText {
+    font-weight: 500;
+    font-size: 16.33px;
+    line-height: 154%;
+    letter-spacing: 0%;
+    color: #0a87e4;
+  }
+  #navName {
+    font-weight: 500;
+    font-size: 16.33px;
+    line-height: 154%;
+    letter-spacing: 0%;
+    color: #617387;
+  }
+  #list {
+    width: 100%;
+    background: #101b27;
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
+  .scroll-to-top {
+    display: none;
+  }
+}
